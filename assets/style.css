@@ -71,7 +71,7 @@ main {
     margin-left: 20px;
 }
 
-/* Class selectors for img HTML in main HTML element */
+/* Class selectors for img HTML element in main HTML element */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -82,20 +82,13 @@ main {
     margin-left: 25px;
 }
 
-.search-engine-optimization img {
+/* Element HTML selector for images in main HTML element */
+main img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Class selectors for each section HTML element */
-.search-engine-optimization {
+/* Element selector for section HTML element */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -104,35 +97,8 @@ main {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* Element selector for h2 HTML elements in the section and main HTML elements */
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -149,51 +115,20 @@ aside {
     background-color: #2589bd;
 }
 
-/* Class selectors for each section HTML element within the aside HTML element */
-.benefit-lead {
+/* Elemenet selector for section HTML element within the aside HTML element */
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Element selector for h2 HTML elements in the section and aside HTML elements */
+aside section h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Class selectors for each img HTML element within the section HTML element within the aside HTML element */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/* Element HTML selector for images in aside HTML element  */
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -207,6 +142,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* id selector within footer HTML element */
+footer #made-with {
     font-size: 20px;
 }
